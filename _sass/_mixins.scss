@@ -1,3 +1,12 @@
+// COLORS
+
+$black: #151E1B;
+$green-dark: #243333;
+$green: #446D67;
+$green-light: #9CB596;
+$yellow: #EDECCE;
+$red: #E7413D;
+$red-light: #EB7968;
 @mixin transition-all()
 {
     -webkit-transition: all 0.35s;

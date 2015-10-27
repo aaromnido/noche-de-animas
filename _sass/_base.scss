@@ -170,6 +170,12 @@ header {
                 margin-top: 0;
                 margin-bottom: 0;
             }
+            h1, h2, h3{
+                font-family: "Nosifer";
+                color: $black;
+                $color-shadow: $yellow;
+                text-shadow: 3px 3px 10px $color-shadow, -3px -3px 10px $color-shadow, -3px 3px 10px $color-shadow, 3px -3px 10px $color-shadow;
+            }
             hr {
                 margin: 30px auto;
             }
@@ -179,6 +185,9 @@ header {
                 font-size: 16px;
                 margin-bottom: 50px;
             }
+        }
+        .logo{
+            margin-bottom: 2rem;
         }
     }
     @media (min-width: 768px) {
@@ -300,7 +309,8 @@ header {
 }
 
 .btn-primary {
-    @include button-variant(white, $theme-primary, $theme-primary);
+    @include button-variant($yellow, $red, $green);
+    font-family: "Lora" !important;
 }
 
 .btn {
@@ -348,4 +358,3 @@ img::-moz-selection {
 body {
     -webkit-tap-highlight-color: $theme-dark;
 }
-
