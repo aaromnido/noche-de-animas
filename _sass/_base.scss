@@ -2,6 +2,7 @@ html,
 body {
     height: 100%;
     width: 100%;
+    color: $green-dark;
 }
 
 body {
@@ -82,6 +83,8 @@ aside {
         font-weight: 700;
         font-size: 3rem;
         text-transform: uppercase;
+
+        text-shadow: 2px 2px 2px black,  -2px -2px 2px black, -2px 2px 2px black, 2px -2px 2px black;
         &:hover,
         &:focus {
             color: darken($yellow, 10%);
@@ -368,4 +371,15 @@ body {
 
 .bg-darkness{
     background-color: $black !important;
+}
+
+.contact{
+    .map{
+        margin-top: 4rem;
+    }
+}
+.footer{
+    h2{
+        margin-bottom: 8rem;
+    }
 }
