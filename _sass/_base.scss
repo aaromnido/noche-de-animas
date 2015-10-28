@@ -74,7 +74,7 @@ aside {
     margin: 4rem 0;
 }
 .navbar-default {
-    background-color: white;
+    background-color: transparentize(white, 0.5);
     border-color: rgba($theme-dark, .5);
     @include sans-serif-font;
     @include transition-all;
@@ -136,7 +136,7 @@ aside {
             border-color: rgba($theme-dark, .5);
             .navbar-header .navbar-brand {
                 color: $theme-primary;
-                font-size: 14px;
+                font-size: 24px;
                 &:hover,
                 &:focus {
                     color: darken($theme-primary, 10%);
